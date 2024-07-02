@@ -11,6 +11,7 @@ import ModalComponent from "./components/modal-popup/modal-component";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import ScrollToSection from "./components/scroll-to-section";
 import SearchAutoComplete from "./components/search-auto-complete";
 import StarRating from "./components/star-rating";
 import TicTacToe from "./components/tic-tac-toe";
@@ -18,6 +19,7 @@ import TreeView from "./components/tree-view";
 import TestUseFetchHook from "./components/use-fetch/test-use-fetch-hook";
 import TestUseOutsideClick from "./components/use-outside-click/test-use-outside-click";
 import TestUseWindowResizeHook from "./components/use-window-resize-hook/test-use-window-resize-hook";
+import Weather from "./components/weather-info/weather";
 import ScrollToTopOrBottom from "./scroll-top-bottom";
 
 function App() {
@@ -47,7 +49,9 @@ function App() {
       {/* <TestUseFetchHook /> */}
       {/* <TestUseOutsideClickHook /> */}
       {/* <TestUseWindowResizeHook /> */}
-      <ScrollToTopOrBottom />
+      {/* <ScrollToTopOrBottom /> */}
+      {/* <ScrollToSection />  */}
+      <Weather />
     </div>
   );
 }
